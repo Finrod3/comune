@@ -1,0 +1,65 @@
+/*
+Theme Name: comune
+Theme URI:
+Author: Dario Tonani
+Author URI:
+Description: Starter Theme with Font Awesome and Bootstrap 4
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-header, custom-menu, editor-style, featured-images, sticky-post, translation-ready
+Text Domain: comune
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*colore bianco parole del menu*/
+#menu-menu-1 a{
+   color:white;
+}
+/*Background menu*/
+.header{
+  background-color: #06c;
+}
+.form-control::placeholder{
+  color:#fff!important;
+}
+.header-title > div:nth-child(2){
+  color:#fff;
+}
+.header-social a{
+  color:#fff;
+}
+
+.header .header-title body{
+  color:white!important;
+}
+.header-social > ul:nth-child(1) > li:nth-child(1){
+  color:#fff;
+}
+
+/*footer*/
+.bg-300{
+  background-color: #00264d !important;
+}
+.footer-title{
+  color:#fff !important;
+}
+.footer > div:nth-child(1) > div:nth-child(2){
+  color:#fff;
+}
+div.row:nth-child(3){
+  color:#fff!important;
+}
+.footer .list-group-item{
+  background-color: #00264d!important;
+}
+.footer a{
+  color: #65dcdf;
+}
+
+
+.comments{
+  display: none!important;
+}

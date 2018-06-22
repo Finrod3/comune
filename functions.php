@@ -29,6 +29,31 @@ function comune_setup_theme(){
 
 add_action('after_setup_theme', 'comune_setup_theme');
 
+/* Include sidebar
+________________________________*/
+/* Register Sidebars
+-------------------------------------------------------- */
+
+if(! function_exists('comune_sidebars') ) {
+
+  function comune_sidebars(){
+    register_sidebar(array(
+      'name' => esc_html__('Primary','comune'),
+      'id' => 'primary',
+      'description' => esc_html__('Main Sidebar','comune'),
+      'before_title' => '<h3>' ,
+      'after_title' => '</h3>',
+      'before_widget' => '<div class="widget my-5 %2$s clearfix">',
+      'after_widget' => '</div>',
+
+      )
+    );
+  }
+
+}
+
+add_action('widgets_init','comune_sidebars');
+
 
 /* Include javascritpt files
 ________________________________*/

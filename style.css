@@ -38,6 +38,9 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .header-social > ul:nth-child(1) > li:nth-child(1){
   color:#fff;
 }
+.navbar .dropdown-menu{
+  background-color: #06c;
+}
 
 /*footer*/
 .bg-300{

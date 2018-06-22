@@ -64,9 +64,8 @@ ________________________________*/
 if(! function_exists('comune_scripts') ) {
 
   function comune_scripts(){
-
-    wp_enqueue_script('comune-bootstrap-js', get_template_directory_uri() .'/js/bootstrap.min.js', array('jquery'),null ,true );
     wp_enqueue_script('comune-popper-js', get_template_directory_uri() .'/js/popper.min.js', array('jquery'),null ,true );
+    wp_enqueue_script('comune-bootstrap-js', get_template_directory_uri() .'/js/bootstrap.min.js', array('jquery'),null ,true );
     wp_enqueue_script('comune-bootstrap-js', get_template_directory_uri() .'/js/bootstrap-italia.min.js', array('jquery'),null ,true );
     wp_enqueue_script('comune-bootstrap-js', get_template_directory_uri() .'/js/bootstrap-italia.boundle.min.js', array('jquery'),null ,true );
     wp_enqueue_script('comune-scripts-js', get_template_directory_uri() .'/js/scripts.js', array('jquery'),null ,true );
